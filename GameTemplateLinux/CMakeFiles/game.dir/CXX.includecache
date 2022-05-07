@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ghost17/Downloads/GameTemplateLinux/Engine.h
+stdint.h
+-
+
+/home/ghost17/Downloads/GameTemplateLinux/Game.cpp
+Engine.h
+/home/ghost17/Downloads/GameTemplateLinux/Engine.h
+stdlib.h
+-
+memory.h
+-
+iostream
+-
+stdio.h
+-
+
