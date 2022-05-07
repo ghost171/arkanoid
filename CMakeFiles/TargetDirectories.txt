@@ -1,0 +1,3 @@
+/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles/rebuild_cache.dir
+/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles/edit_cache.dir
+/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles/game.dir
