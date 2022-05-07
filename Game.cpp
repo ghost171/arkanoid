@@ -1,10 +1,7 @@
 #include "Engine.h"
 #include <stdlib.h>
 #include <memory.h>
-#include <iostream>
 #include <stdio.h>
-
-using namespace std;
 
 //
 //  You are free to modify this file
@@ -44,8 +41,8 @@ void Paddle::setDx(int x) {
 }
 
 void Paddle::move() {
-    x = x + dx * 32;
-    y = y + 32;
+    x = x ;
+    y = y + dx * 32;
 }
 
 Paddle paddle;
@@ -92,10 +89,10 @@ class Ball {
     //int getXDir();
     //int getYDir();
 
-    int xdir = 0.5;
-    int ydir = -0.5;
-    static const int INITIAL_X = 15 * 32;
-    static const int INITIAL_Y = 10 * 32;    
+    int xdir = 1;
+    int ydir = -1;
+    static const int INITIAL_X = 10 * 32;
+    static const int INITIAL_Y = 11 * 32;    
     int x = INITIAL_X;
     int y = INITIAL_Y;
 };
@@ -106,27 +103,35 @@ Ball::~Ball() {}
 void Ball::autoMove() {
  
     if (y - 32 <= 0) {
-        xdir = 1;
-    }
-    
-    if (y+ 32 >= SCREEN_WIDTH) {
-        xdir = -1;
-    }
-    
-    if (x - 32 == 0) {
         ydir = 1;
     }
     
-    if (y - 32 == paddle.y) {
+    if (y + 32 >= SCREEN_WIDTH) {
+        ydir = -1;
+    }
+    
+    if (x - 32 <= 0) {
         xdir = 1;
     }
-
-    if (y + 32 == paddle.y) {
+    
+    if (x + 32 >= SCREEN_HEIGHT) {
         xdir = -1;
     }
 
-    if (x - 32 == paddle.x) {
+    if (y + 32 == paddle.y + 32) {
+        ydir = -1;
+    }
+
+    if (y + 32 == paddle.y + 32) {
         ydir = 1;
+    }
+
+    if (x - 32 == paddle.x - 32) {
+        xdir = 1;
+    }
+
+    if (x + 32 == paddle.x + 32) {
+        xdir = -1;
     }
 
     x = x + 32 * xdir;
@@ -152,13 +157,13 @@ void act(float dt)
         schedule_quit_game();
 
     if (is_key_pressed(VK_RIGHT)){
-        paddle.dx=0.1;
+        paddle.dx=1;
         paddle.move();
     }
 
     
     if (is_key_pressed(VK_LEFT)){
-        paddle.dx=-0.1;
+        paddle.dx=-1;
         paddle.move();
     }
 

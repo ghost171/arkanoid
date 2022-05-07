@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghost17/Downloads/GameTemplateLinux
+CMAKE_SOURCE_DIR = "/home/ghost17/Downloads/GameTemplateLinux (1)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghost17/Downloads/GameTemplateLinux
+CMAKE_BINARY_DIR = "/home/ghost17/Downloads/GameTemplateLinux (1)"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/game.dir/flags.make
 
 CMakeFiles/game.dir/Engine.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Engine.cpp.o: Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/Engine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Engine.cpp.o -c /home/ghost17/Downloads/GameTemplateLinux/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ghost17/Downloads/GameTemplateLinux (1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/Engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Engine.cpp.o -c "/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.cpp"
 
 CMakeFiles/game.dir/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost17/Downloads/GameTemplateLinux/Engine.cpp > CMakeFiles/game.dir/Engine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.cpp" > CMakeFiles/game.dir/Engine.cpp.i
 
 CMakeFiles/game.dir/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost17/Downloads/GameTemplateLinux/Engine.cpp -o CMakeFiles/game.dir/Engine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.cpp" -o CMakeFiles/game.dir/Engine.cpp.s
 
 CMakeFiles/game.dir/Game.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Game.cpp.o: Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Game.cpp.o -c /home/ghost17/Downloads/GameTemplateLinux/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ghost17/Downloads/GameTemplateLinux (1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Game.cpp.o -c "/home/ghost17/Downloads/GameTemplateLinux (1)/Game.cpp"
 
 CMakeFiles/game.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost17/Downloads/GameTemplateLinux/Game.cpp > CMakeFiles/game.dir/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ghost17/Downloads/GameTemplateLinux (1)/Game.cpp" > CMakeFiles/game.dir/Game.cpp.i
 
 CMakeFiles/game.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost17/Downloads/GameTemplateLinux/Game.cpp -o CMakeFiles/game.dir/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ghost17/Downloads/GameTemplateLinux (1)/Game.cpp" -o CMakeFiles/game.dir/Game.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -95,7 +95,7 @@ game: CMakeFiles/game.dir/Engine.cpp.o
 game: CMakeFiles/game.dir/Game.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ghost17/Downloads/GameTemplateLinux (1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd /home/ghost17/Downloads/GameTemplateLinux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ghost17/Downloads/GameTemplateLinux /home/ghost17/Downloads/GameTemplateLinux /home/ghost17/Downloads/GameTemplateLinux /home/ghost17/Downloads/GameTemplateLinux /home/ghost17/Downloads/GameTemplateLinux/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/ghost17/Downloads/GameTemplateLinux (1)" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ghost17/Downloads/GameTemplateLinux (1)" "/home/ghost17/Downloads/GameTemplateLinux (1)" "/home/ghost17/Downloads/GameTemplateLinux (1)" "/home/ghost17/Downloads/GameTemplateLinux (1)" "/home/ghost17/Downloads/GameTemplateLinux (1)/CMakeFiles/game.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/game.dir/depend
 

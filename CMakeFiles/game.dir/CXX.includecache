@@ -6,18 +6,40 @@
 
 #IncludeRegexTransform: 
 
-/home/ghost17/Downloads/GameTemplateLinux/Engine.h
+/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.cpp
+Engine.h
+/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.h
+X11/Xlib.h
+-
+X11/Xutil.h
+-
+X11/keysym.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+signal.h
+-
+errno.h
+-
+time.h
+-
+unistd.h
+-
+
+/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.h
 stdint.h
 -
 
-/home/ghost17/Downloads/GameTemplateLinux/Game.cpp
+/home/ghost17/Downloads/GameTemplateLinux (1)/Game.cpp
 Engine.h
-/home/ghost17/Downloads/GameTemplateLinux/Engine.h
+/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.h
 stdlib.h
 -
 memory.h
--
-iostream
 -
 stdio.h
 -

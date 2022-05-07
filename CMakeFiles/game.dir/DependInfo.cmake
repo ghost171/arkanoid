@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ghost17/Downloads/GameTemplateLinux/Engine.cpp" "/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles/game.dir/Engine.cpp.o"
-  "/home/ghost17/Downloads/GameTemplateLinux/Game.cpp" "/home/ghost17/Downloads/GameTemplateLinux/CMakeFiles/game.dir/Game.cpp.o"
+  "/home/ghost17/Downloads/GameTemplateLinux (1)/Engine.cpp" "/home/ghost17/Downloads/GameTemplateLinux (1)/CMakeFiles/game.dir/Engine.cpp.o"
+  "/home/ghost17/Downloads/GameTemplateLinux (1)/Game.cpp" "/home/ghost17/Downloads/GameTemplateLinux (1)/CMakeFiles/game.dir/Game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
